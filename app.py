@@ -25,7 +25,7 @@ if user_input:
     # Send to Poe API
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer eofj0b29XgNokNgGdUXnef0D-1eSuuAKDeoeZ5Ub_OA"
+        "Authorization": f"Bearer {POE_API_KEY}"
     }
     payload = {
         "model": "ChatBot_CSS",
